@@ -1,11 +1,15 @@
 import React from 'react'
+import FooterContainer from './container/FooterContainer';
+import JumboContainer from './container/JumboContainer';
+
 
 
 function App() {
   return (
-    <div >
-      <h1>Netflix</h1>
-    </div>
+    <>
+      <JumboContainer/>
+      <FooterContainer/>
+    </>
   );
 }
 
