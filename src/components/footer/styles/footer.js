@@ -5,10 +5,11 @@ export const Container = styled.div`
   padding: 70px 50px;
   margin: auto;
   max-width: 1000px;
+  justify-content:center;
   flex-direction: column;
 
   @media (max-width: 1000px) {
-    padding: 70px 20px;
+    padding: 70px 0px;
   }
 
 `
@@ -16,9 +17,13 @@ export const Row = styled.div`
 display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-gap: 15px;
+ 
+  padding:10px;
+
   
   @media (max-width: 1000px) {
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-gap: 0px;
   }
 `
 export const Column = styled.div`
@@ -48,4 +53,5 @@ font-size: 13px;
 export const Break = styled.div`
   flex-basis: 100%;
   height: 0;
+  margin-bottom:5px;
 `

@@ -5,7 +5,7 @@ function FooterContainer() {
   return (
     <>
      <Footer>
-       <Footer.Title>Questions? Contact Us.</Footer.Title>
+       <Footer.Title>Questions? Contact Us.123(456)000</Footer.Title>
        <Footer.Break/>
        <Footer.Row>
          <Footer.Column>
@@ -37,6 +37,8 @@ function FooterContainer() {
            <Footer.Link href="#">Contact Us</Footer.Link>
          </Footer.Column>
        </Footer.Row>
+       <Footer.Break/>
+       <Footer.Text>Netflix India.</Footer.Text>
      </Footer>
     </>
   )
